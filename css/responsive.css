@@ -1,0 +1,153 @@
+
+/* ====== START WITH MIN TO MAX ======== */    
+    
+    
+/* EXTRA SMALL DEVICES (PORTRAITS PHONES)*/
+    @media (max-width: 575px){
+        .quality-list h2 {
+        width: 100%;
+        line-height: 50px;
+    }
+    .data-list-section-heading p {
+	width: 100%;
+	text-align: ;
+	margin: 0 auto;
+	color: #9a8686;
+	font-size: 14px;
+}
+.testomonial-image {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+
+.accreditaions {
+	width: 70%;
+	margin: 0 auto;
+}
+        
+.accreditations h2 {
+	font-size: 23px;
+	text-align: center;
+}
+        
+ .customers-buttons a {
+	width: 100%;
+	margin-bottom: 10px;
+}       
+    
+.accreditaions img {
+	width: 100%;
+}
+        .owl-nav .owl-prev span, .owl-nav .owl-next span{
+            font-size: 30px;
+        }
+     .owl-nav .owl-prev{
+            right: 50%;
+        }    
+        .owl-nav .owl-next{
+            right: 30%;
+        }
+        
+        
+        
+    }
+     
+    
+/* SMALL DEVICES (LANDSCAPE PHONES)*/
+    @media (min-width: 576px) and (max-width: 767px){
+        .quality-list h2 {
+	width: 100%;
+	line-height: 50px;
+}
+    .data-list-section-heading p {
+	width: 100%;
+	text-align: ;
+	margin: 0 auto;
+	color: #9a8686;
+	font-size: 14px;
+}
+.testomonial-image {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 2rem;
+}   
+
+.accreditaions {
+	width: 70%;
+	margin: 0 auto;
+}
+.accreditaions img{
+    width: 100%;
+}
+.accreditations h2 {
+	font-size: 30px;
+	text-align: center;
+}
+        
+.customers-buttons a {
+	width: 100%;
+	margin-bottom: 10px;
+}
+        .owl-nav .owl-prev span, .owl-nav .owl-next span{
+            font-size: 30px;
+        }        
+        
+        .owl-nav .owl-prev{
+            right: 50%;
+        }    
+        .owl-nav .owl-next{
+            right: 30%;
+        }
+        
+        
+        
+    }
+       
+/* MEDIUM DEVICES (TABLETS)*/
+    @media (min-width: 768px) and (max-width: 991px){
+    .customers-buttons.mt-5 a {
+	width: 100%;
+	margin-top: 10px;
+}
+        
+        
+        
+        
+        
+    }
+/* LARGE  DEVICES (LAPTOP OR DESKTOP)*/
+    @media (min-width: 992px){
+        
+    }
+/* EXTRA LARGE DEVICES (LARGE DESKTOPS)*/
+    @media (min-width: 1200px){
+       
+    }
+
+    
+    
+/* ======= START WITH MAX TO MIN ======= */    
+    
+   
+/* LARGE DEVICES (DESKTOPS)*/
+    @media (max-width: 1199px){
+        
+    }
+        
+       
+/* MEDIUM DEVICES (TABLETS)*/
+    @media (max-width: 991px){
+        
+    }
+/* SMALL  DEVICES (LANDSCAPE PHONES)*/
+    @media (max-width: 767px){
+    
+    }
+/* EXTRA SMALL DEVICES (PORTRAIT PHONES)*/
+    @media (max-width: 575px){
+        
+    }
+        
+     
+  
