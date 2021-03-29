@@ -183,6 +183,8 @@ p, span{
 	align-self: center;
 }
 
+
+
 .data-list-section-heading p {
 	width: 60%;
 	text-align: ;
@@ -197,9 +199,12 @@ p, span{
 
 /*TESTOMONIAL STARTS*/
 .testomonial-section-area {
+    background-color: #041538;
     background-image: url(../img/bg-4-1.png);
-	background-color: #041538;
-	padding: 80px 0;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    padding: 80px 0;
     padding-bottom: 150px;
 }
 
@@ -247,7 +252,7 @@ p, span{
 
 .contact-area{
     background: url("../img/bg-4-1.png");
-    background-position: ;
+    background-position:  ;
     background-repeat: no-repeat
     background-size: 
 }
@@ -290,6 +295,9 @@ p, span{
 
 .dual-corner-img {
 	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 84%;
 }
 
 .footer-area {
@@ -442,8 +450,6 @@ p, span{
 	position: absolute;
 	top: 110%;
 }
-
-
 
 
 
