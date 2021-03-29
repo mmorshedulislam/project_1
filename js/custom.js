@@ -1,9 +1,14 @@
+
+
+// ===OWL OLD====
+
 $(document).ready(function(){
 
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
+    dots: true,
     responsive:{
         0:{
             items:1
@@ -18,21 +23,28 @@ $('.owl-carousel').owlCarousel({
 })
     
     
-    
-    
-    
-    
-    
-    
-    
+       
     
 });
 
 
+// INTERNATIONAL TEL
 
+$('#telephone').intlTelInput({
+		initialCountry: "auto",
+		geoIpLookup: function(callback){
+			jQuery.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp){
+				var countryCode = (resp && resp.country) ? resp.country : "";
+				callback(countryCode); 
+			});
+		},
+		utilsScript: 'js/utils.js'
+	});
 
 
 /*
+
+//==SLICK SLIDER==
 
 $('.slider').slick({
   dots: true,
