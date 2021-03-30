@@ -36,6 +36,10 @@
 	margin-bottom: 10px;
 }       
     
+ .customers-buttons a:last-child {
+    margin-left: 0;
+}
+        
 .accreditaions img {
 	width: 100%;
 }
@@ -72,6 +76,10 @@
 	margin: 0 auto;
 	margin-top: 2rem;
 }   
+        
+ .customers-buttons a:last-child {
+    margin-left: 0;
+}
 
 .accreditaions {
 	width: 70%;
@@ -111,7 +119,9 @@
 	margin-top: 10px;
 }
         
-        
+ .customers-buttons a:last-child {
+    margin-left: 0;
+}    
         
         
         
