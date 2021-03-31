@@ -52,8 +52,14 @@
         .owl-nav .owl-next{
             right: 30%;
         }
-        
-        
+        .footer-item img{
+            width: 30%;
+            
+        }
+        .head-btns .btn {
+	        width: 45%;
+        }    
+
         
     }
      
@@ -107,7 +113,13 @@
         .owl-nav .owl-next{
             right: 30%;
         }
-        
+        .footer-item img{
+            width: 30%;
+            
+        }
+        .head-btns a {
+            width: 48%;
+        }
         
         
     }
