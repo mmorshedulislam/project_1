@@ -59,7 +59,16 @@
         .head-btns .btn {
 	        width: 45%;
         }    
-
+.accreditations2 h2 {
+	font-size: 20px;
+	text-align: center;
+}
+        .owl-theme .owl-nav {
+	margin-top: 10px;
+	position: absolute;
+	top: -5%;
+	right: 30%;
+}
         
     }
      
@@ -69,6 +78,10 @@
         .quality-list h2 {
 	width: 100%;
 	line-height: 50px;
+}
+    .accreditations2 h2 {
+	font-size: 20px;
+	text-align: center;
 }
     .data-list-section-heading p {
 	width: 100%;
@@ -121,6 +134,20 @@
             width: 48%;
         }
         
+        .owl-theme .owl-nav {
+	margin-top: 10px;
+	position: absolute;
+	top: -5%;
+	right: 20%;
+}
+        
+.owl-theme .owl-nav {
+	margin-top: 10px;
+	position: absolute;
+	top: -5%;
+	right: 30%;
+}
+        
         
     }
        
@@ -134,7 +161,10 @@
  .customers-buttons a:last-child {
     margin-left: 0;
 }    
-        
+      
+        .accreditaions img{
+            width: 100%;
+        }
         
         
     }
