@@ -108,7 +108,7 @@
 .testomonial-description h2{ 
     font-size: 32px;
     margin-top: 100px;
-    line-height: 0px;
+    line-height: 30px;
  }
 .testomonial-description p{
     font-size: 12px;
@@ -127,9 +127,120 @@
     top: -16%;
 }
 
-#target_id{
+.single-data-slide{
     display: block;
 }
+
+#target_id .owl-nav .owl-prev {
+    position: absolute;
+    left: -200px;
+    top: 250px;
+}
+
+#target_id .owl-nav .owl-next {
+    position: absolute;
+    top: 250px;
+    right: -170px;
+}
+#target_id .owl-dots {
+    display: none;
+}
+#target_id .owl-nav .owl-prev span, #target_id .owl-nav .owl-next span {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#target_id .owl-nav .owl-prev {
+    position: absolute;
+    left: -370px;
+    top: 250px;
+}
+
+#target_id .owl-nav .owl-next {
+    position: absolute;
+    top: 250px;
+    right: -200px;
+}
+#target_id .owl-dots {
+    display: none;
+}
+#target_id .owl-nav .owl-prev span, #target_id .owl-nav .owl-next span {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#target_id .owl-nav .owl-prev span:hover, #target_id .owl-nav .owl-next span:hover {
+    background: #fff;
+    color: #9086FC;
+}
+
+#target_id .owl-nav .owl-prev:hover,
+#target_id .owl-nav .owl-next:hover{
+    background: transparent;
+    color: #9086FC;
+}
+
+#target_id .owl-nav .owl-prev,
+#target_id .owl-nav .owl-next,
+#client .owl-nav .owl-prev,
+#client .owl-nav .owl-next {
+    background: #9086FC;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+#client .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.single-data-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    padding: 35px 16px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.target .owl-item img {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.data-item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testomonial-description p, h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #5A6973;
+}
+
+.customers-buttons a {
+    width: 80%;
+}
+
+#client .owl-nav .owl-prev{
+    margin-right: 5px;
+}
+#client .owl-nav {
+    width: 50%;
+}
+
+
+
+
+
+
 
 
 
@@ -255,7 +366,7 @@
 .testomonial-description h2{ 
     font-size: 32px;
     margin-top: 100px;
-    line-height: 0px;
+    line-height: 30px;
  }
 .testomonial-description p{
     font-size: 12px;
@@ -288,8 +399,10 @@
     display: block;
 }
 
-.target .owl-item img{
+.target .owl-item img {
     width: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 .data-item-icon {
     display: flex;
@@ -300,6 +413,69 @@
     font-family: 'Montserrat', sans-serif;
     color: #5A6973;
 }
+
+.single-data-slide{
+    display: block;
+}
+
+#target_id .owl-nav .owl-prev {
+    position: absolute;
+    left: -370px;
+    top: 250px;
+}
+
+#target_id .owl-nav .owl-next {
+    background: ;
+    position: absolute;
+    top: 250px;
+    right: ;
+    right: -200px;
+}
+#target_id .owl-dots {
+    display: none;
+}
+#target_id .owl-nav .owl-prev span, #target_id .owl-nav .owl-next span {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#target_id .owl-nav .owl-prev span:hover, #target_id .owl-nav .owl-next span:hover {
+    background: #fff;
+    color: #9086FC;
+}
+
+#target_id .owl-nav .owl-prev:hover,
+#target_id .owl-nav .owl-next:hover{
+    background: transparent;
+    color: #9086FC;
+}
+
+#target_id .owl-nav .owl-prev,
+#target_id .owl-nav .owl-next,
+#client .owl-nav .owl-prev,
+#client .owl-nav .owl-next {
+    background: #9086FC;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+#client .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+#client .owl-nav .owl-prev{
+    margin-right: 10px;
+}
+
+
+
 
 
 
@@ -337,10 +513,6 @@
 }
         
 
-.target{
-    display: none;
-}
-
 
 
 
@@ -359,10 +531,6 @@
 }
 
 
-.target{
-    display: none;
-}
-
 
 
 
@@ -372,10 +540,7 @@
     }
 /* EXTRA LARGE DEVICES (LARGE DESKTOPS)*/
     @media (min-width: 1200px){
-       
-.target{
-    display: none;
-}
+
 
 
     }

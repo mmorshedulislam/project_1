@@ -447,7 +447,7 @@ p, span{
 /*owl carousel*/
 
 .owl-nav{
-    display: none;
+    display: block;
 }
 
 .owl-theme .owl-nav {
@@ -457,19 +457,25 @@ p, span{
 	right: 15%;
 }
 
-.owl-nav .owl-prev span, .owl-nav .owl-next span {
-	background: #9086FC;
-	border-radius: 50%;
-	font-size: 35px;
-	padding: 0px 20px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	margin-right: 30px;
-	text-align: ;
+#target_id .owl-nav .owl-prev,
+#target_id .owl-nav .owl-next,
+#client .owl-nav .owl-prev,
+#client .owl-nav .owl-next {
+    background: #9086FC;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
 }
 
+.owl-nav .owl-prev span, .owl-nav .owl-next span {
+	font-size: 25px;
+	font-weight: bold;
+}
 
+#client .owl-nav .owl-prev {
+	background: ;
+	margin-right: 40px;
+}
 
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
     display: block;
@@ -480,7 +486,7 @@ p, span{
 	-webkit-tap-highlight-color: transparent;
 }
 
-.owl-theme .owl-dots .owl-dot span {
+#client .owl-dots .owl-dot span {
 	width: 15px;
 	height: 15px;
 }
@@ -491,6 +497,10 @@ p, span{
 	top: 110%;
 }
 
+
+.single-data-slide{
+	display: none;
+}
 
 
 
