@@ -70,12 +70,79 @@
 	right: 30%;
 }
         
-    }
+.customers-section-area{
+    text-align: center;
+}        
+.customers-buttons a {
+    width: 50%;
+}
+.customers-section-area h1{
+    font-size: 35px;
+}
+.quality-list {
+    margin-top: 50px;
+}
+
+.form-control::placeholder{
+    font-size: 14px;
+}
+
+#textareas {
+    height: 75px;
+}
+
+.frm button{
+    width: 50%;
+    float: right;
+}
+.dual-corner-img{
+    display: none;
+}
+.single_data{
+    display: none;
+}
+.testomonial-section-area{
+    text-align: center;
+}
+
+.testomonial-description h2{ 
+    font-size: 32px;
+    margin-top: 100px;
+    line-height: 0px;
+ }
+.testomonial-description p{
+    font-size: 12px;
+}
+
+.testomonial-title h4{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 200;
+}
+.testomonial-title h5{
+    display: inline;
+    font-size: 14px;
+}
+.owl-theme .owl-nav{
+    top: -16%;
+}
+
+#target_id{
+    display: block;
+}
+
+
+
+
+
+
+
+}
      
     
 /* SMALL DEVICES (LANDSCAPE PHONES)*/
     @media (min-width: 576px) and (max-width: 767px){
-        .quality-list h2 {
+.quality-list h2 {
 	width: 100%;
 	line-height: 50px;
 }
@@ -148,8 +215,99 @@
 	right: 30%;
 }
         
-        
-    }
+.customers-section-area{
+    text-align: center;
+}        
+
+.customers-buttons a {
+    width: 50%;
+}
+
+.customers-section-area h1{
+    font-size: 35px;
+}
+.quality-list {
+    margin-top: 50px;
+}
+.form-control::placeholder{
+    font-size: 14px;
+}
+
+#textareas {
+    height: 75px;
+}
+.frm button{
+    width: 50%;
+    float: right;
+}
+.dual-corner-img{
+    display: none;
+}
+
+.single_data{
+    display: none;
+}
+
+.testomonial-section-area{
+    text-align: center;
+}
+
+.testomonial-description h2{ 
+    font-size: 32px;
+    margin-top: 100px;
+    line-height: 0px;
+ }
+.testomonial-description p{
+    font-size: 12px;
+}
+
+.testomonial-title h4{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 200;
+}
+.testomonial-title h5{
+    display: inline;
+    font-size: 14px;
+}
+
+.owl-theme .owl-nav{
+    top: -16%;
+}
+
+.single-data-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    padding: 35px 16px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#target_id{
+    display: block;
+}
+
+.target .owl-item img{
+    width: 20%;
+}
+.data-item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testomonial-description p, h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #5A6973;
+}
+
+
+
+
+
+
+
+}
        
 /* MEDIUM DEVICES (TABLETS)*/
     @media (min-width: 768px) and (max-width: 991px){
@@ -162,19 +320,64 @@
     margin-left: 0;
 }    
       
-        .accreditaions img{
-            width: 100%;
-        }
+.accreditaions img{
+    width: 100%;
+}
+
+.data-list-section-heading p{
+    width: 80%;
+}
+
+.owl-nav .owl-prev span, .owl-nav .owl-next span{
+    margin-right: 0;
+} 
+
+.owl-theme .owl-nav{
+    top: -12%;
+}
         
-        
-    }
+
+.target{
+    display: none;
+}
+
+
+
+
+
+
+}
 /* LARGE  DEVICES (LAPTOP OR DESKTOP)*/
     @media (min-width: 992px){
+
+.data-item-icon {
+    display: flex;
+}
+
+.data-item-icon img{
+    margin-bottom: 1rem;
+}
+
+
+.target{
+    display: none;
+}
+
+
+
+
+
+
         
     }
 /* EXTRA LARGE DEVICES (LARGE DESKTOPS)*/
     @media (min-width: 1200px){
        
+.target{
+    display: none;
+}
+
+
     }
 
     

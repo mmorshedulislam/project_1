@@ -160,9 +160,11 @@ p, span{
 }
 
 .quality-list span {
-	line-height: 50px;
+	line-height: 22px;
 	font-size: 14px;
 	color: #9a8686;
+	margin-bottom: 25px;
+	width: 67%;
 }
 
 .quality-list h2 {
@@ -196,6 +198,7 @@ p, span{
 	padding: 20px;
 	border-radius: 15px;
 	margin-right: 2rem;
+	margin-bottom: 3rem;
 }
 
 .data-item-icon h5 {
@@ -209,7 +212,7 @@ p, span{
 
 
 .data-list-section-heading p {
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 	color: #021639;
 	font-size: 20px;
@@ -309,7 +312,7 @@ p, span{
 
 .frm {
 	background: #FCF8FF;
-	padding: 3%;
+	padding: 4%;
 	border-radius: 15px;
 }
 .frm button {
@@ -324,6 +327,7 @@ p, span{
 .frm textarea {
 	background: #EBEAF3;
 }
+
 .form-control::-webkit-input-placeholder {
 	color: #999;
 	opacity: 1;
@@ -420,7 +424,7 @@ p, span{
 	margin-bottom: 7px;
 	color: #ddd;
 	font-size: 14px;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .footer-item-para {
@@ -443,7 +447,7 @@ p, span{
 /*owl carousel*/
 
 .owl-nav{
-    display: block;
+    display: none;
 }
 
 .owl-theme .owl-nav {

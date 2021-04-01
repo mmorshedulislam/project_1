@@ -8,7 +8,8 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    dots: true,
+    dots: false,
+    // autoplay: true,
     responsive:{
         0:{
             items:1
@@ -22,7 +23,29 @@ $('.owl-carousel').owlCarousel({
     }
 })
     
-    
+
+
+$('.target').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+   
+
+
+ 
        
     
 });
@@ -31,6 +54,8 @@ $('.owl-carousel').owlCarousel({
 // INTERNATIONAL TEL
 
 $('#telephone').intlTelInput({
+  responsiveDropdown: true,
+  autoFormat: true,
 		initialCountry: "auto",
 		geoIpLookup: function(callback){
 			jQuery.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp){
