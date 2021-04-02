@@ -56,6 +56,11 @@ p, span{
 	color: #877BFB;
 }
 
+.navbar-light .navbar-toggler {
+	color: #877BFB;
+	border-color: transparent;
+}
+
 .head-btns{}
 .head-btns a:first-child{
     border: solid 2px #011638; 

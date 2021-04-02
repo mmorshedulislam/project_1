@@ -4,11 +4,14 @@
     
 /* EXTRA SMALL DEVICES (PORTRAITS PHONES)*/
     @media (max-width: 575px){
-        .quality-list h2 {
-        width: 100%;
-        line-height: 50px;
-    }
-    .data-list-section-heading p {
+
+
+
+.quality-list h2 {
+       width: 100%;
+       line-height: 50px;
+}
+.data-list-section-heading p {
 	width: 100%;
 	text-align: ;
 	margin: 0 auto;
@@ -151,17 +154,18 @@
     font-weight: bold;
 }
 
+
+
 #target_id .owl-nav .owl-prev {
-    position: absolute;
-    left: -370px;
-    top: 250px;
+    position: unset;
 }
 
 #target_id .owl-nav .owl-next {
-    position: absolute;
-    top: 250px;
-    right: -200px;
+    position: unset;
 }
+
+
+
 #target_id .owl-dots {
     display: none;
 }
@@ -195,7 +199,7 @@
 #client .owl-nav {
     margin-top: 10px;
     position: absolute;
-    top: -15%;
+    top: -18%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -206,7 +210,7 @@
     border: 1px solid #ddd;
     border-radius: 7px;
     padding: 35px 16px;
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -235,7 +239,18 @@
 #client .owl-nav {
     width: 50%;
 }
+.head-btns a:first-child,
+.head-btns a:last-child{
+    font-size: 16px;
+    padding: 10px 20px;
+}
 
+#target_id .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    top: -10%;
+    right: 30%;
+}
 
 
 
@@ -418,6 +433,8 @@
     display: block;
 }
 
+/*
+
 #target_id .owl-nav .owl-prev {
     position: absolute;
     left: -370px;
@@ -431,6 +448,9 @@
     right: ;
     right: -200px;
 }
+
+*/
+
 #target_id .owl-dots {
     display: none;
 }
@@ -474,7 +494,12 @@
     margin-right: 10px;
 }
 
-
+#target_id .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    top: -10%;
+    right: 40%;
+}
 
 
 
@@ -511,8 +536,17 @@
 .owl-theme .owl-nav{
     top: -12%;
 }
-        
+     
+.testomonial-description p{
+    font-size: 18px;
+}
 
+.testomonial-title h5{
+    font-size: 16px;
+}   
+.testomonial-title h4{
+    font-size: 26px;
+}
 
 
 
@@ -530,7 +564,16 @@
     margin-bottom: 1rem;
 }
 
+.testomonial-description p{
+    font-size: 18px;
+}
 
+.testomonial-title h5{
+    font-size: 16px;
+}   
+.testomonial-title h4{
+    font-size: 26px;
+}
 
 
 
@@ -540,6 +583,17 @@
     }
 /* EXTRA LARGE DEVICES (LARGE DESKTOPS)*/
     @media (min-width: 1200px){
+
+.testomonial-description p{
+    font-size: 18px;
+}
+
+.testomonial-title h5{
+    font-size: 16px;
+}   
+.testomonial-title h4{
+    font-size: 26px;
+}
 
 
 
